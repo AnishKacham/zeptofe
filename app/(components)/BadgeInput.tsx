@@ -195,7 +195,7 @@ export default function BadgeInput() {
           ref={inputFieldRef}
         />
         {dropDownVisible ? (
-          <ol className="w-full flex flex-col border-2 rounded-md py-2 absolute translate-y-8 bg-white w-64 drop-shadow-lg max-h-96 overflow-y-auto">
+          <ol className="flex flex-col border-2 rounded-md py-2 absolute translate-y-8 bg-white w-64 drop-shadow-lg max-h-96 overflow-y-auto">
             {searchFilter(searchvalue, peopleInDropDown).map((person, i) => {
               return (
                 <li
